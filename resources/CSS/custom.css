@@ -1,0 +1,364 @@
+/*General*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url('Monotype  - CG Times Bold.otf') format('truetype');
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar-brand img {
+  height: 150px;
+  width: 244px;
+}
+
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  margin-top: 4rem;
+}
+
+
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bc1;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-family: 'CG Times Bold';
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.acerca {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+background-color:#007bc1;
+color: white ;
+}
+
+.btn-block {
+margin-top: 1rem;
+}
+
+.boton {
+  margin-left: 2rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #007bc1;
+
+}
+
+.jumbotron {
+
+}
+.special {
+  display: none;
+}
+
+.container {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+
+
+
+}
+
+.media {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+}
+
+.fa-whatsapp  {
+  color:#fff;
+
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 5rem;
+
+}
+
+.Contacto {
+  background-color: #007bc1;
+  color:;
+}
+
+.fa-facebook-f {
+  color: white;
+}
+
+ .fa-instagram  {
+
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-right: 2rem;
+
+
+}
+
+.fa-phone {
+  color:;
+
+}
+
+footer {
+background-color:#007bc1 ;
+color:;
+
+}
+
+footer h1 {
+  color: white;
+}
+
+.container li a {
+  color: white;
+}
+
+
+.divider {
+  background-image: url('../images/Taller Panoramica.jpeg');
+  background-size: cover;
+  height: 10rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.divider span {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.last {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+
+.last p {
+  font-size: 0.75rem;
+  color: white ;
+}
+
+.last a {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.carousel-caption {
+  top: 60%;
+  bottom: auto;
+}
+
+
+
+.card-img-overlay {
+  top: 40%;
+  bottom: auto;
+}
+
+
+
+.Banner img {
+  opacity: 0.5;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.icon img {
+  border:5px solid #007bc1;
+  background-color: #007bc1;
+}
+
+.go {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.icon .btn {
+  width: 50%;
+  top: 30%;
+  left: 50%;
+
+}
+.mobile {
+  display: none;
+}
+
+.ubicacion .row {
+  margin: 4rem 4rem;
+}
+#promotional-Header {
+
+
+}
+
+.jumbotron {
+  display: none;
+}
+
+#promotional-Header-Mobile {
+  display: none;
+}
+
+#newCover {
+  padding-top: 1rem;
+  padding-bottom: 1.2rem;
+}
+
+#newCoverPic img {
+  padding-left: 0.5rem;
+}
+
+#newCoverText {
+margin-top: 2rem;
+padding-top: 2rem;
+
+
+}
+
+nav {
+  margin-bottom: 3rem;
+}
+
+nav .nav-item {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+nav .dropdown-item {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 992px) {
+
+.card-img-overlay .btn {
+  font-size: 1.5rem;
+  width: 10rem;
+}
+
+
+.iphone {
+  display: none;
+}
+
+
+
+}
+
+@media only screen and (max-width:576px){
+
+  .navbar-brand img {
+    height: 120px;
+    width: 131px;
+  }
+
+  #promotional-Header {
+    display: none;
+  }
+
+  #promotional-Header-Mobile {
+    display: inherit;
+  }
+
+  #promotional-Header-Mobile h1 {
+    padding-left: 70px;
+    font-size: 1.2rem;
+  }
+
+  #newCover {
+    padding-bottom: 10px;
+  }
+
+  #newCover p {
+    padding-left: 2rem;
+  }
+
+  .taller-img img {
+height: 10rem;
+width: 100%;
+
+  }
+
+
+  .mobile {
+    display: initial;
+  }
+
+.card-img-overlay {
+  top: 80%;
+  bottom: auto;
+}
+
+.regular {
+  display: none;
+}
+
+   #MainBanne btn {
+    width:100%;
+    padding-top: 0.7rem;
+    border: none;
+    border-width: medium;
+    white-space: normal;
+  }
+  #MainBanner .btn:hover {
+
+  }
+
+  .acerca {
+    margin-top: 3rem;
+    font-size: 0.7rem;
+  }
+
+
+}
